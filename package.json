@@ -1,0 +1,19 @@
+{
+  "name": "randa",
+  "version": "1.0.0",
+  "description": "Randa is a javascript library of tools to generate, sample and analyze random data.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sample",
+    "random",
+    "rng",
+    "prng",
+    "generator",
+    "statistics"
+  ],
+  "author": "Buca Hajdini",
+  "license": "ISC"
+}

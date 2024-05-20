@@ -18,7 +18,7 @@ export class Lehmann {
 
 	#seed;
 
-	constructor( seed, modulus, multiplier ) {
+	constructor( seed, modulus = 2147483563, multiplier = 48271 ) {
 
 		// Error handling for invalid inputs (optional)
 		if ( !isPrime(modulus) || modulus <= 0 || !Number.isInteger(multiplier) || multiplier <= 0 || multiplier >= modulus || !Number.isInteger( seed ) || seed < 0 || seed >= modulus) {
